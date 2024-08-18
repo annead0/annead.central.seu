@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
 import { USelectMenu } from '#build/components';
-var langU = false;
+let langU = false;
 const lang =[{id:1 ,name:"EN"},{id:2,name:"CAT/VAL"}];
-const uiLang = ref(lang[0].id);
-if(uiLang === 1){
-    langU = true;
+let uiLang = ref(lang[1].id);
+if (uiLang ===ref(1)){
+    langU =true;
 }else{
     langU = false;
 };
