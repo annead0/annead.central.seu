@@ -3,7 +3,7 @@ import { USelectMenu } from '#build/components';
 var langU = false;
 const lang =[{id:1 ,name:"EN"},{id:2,name:"CAT/VAL"}];
 const uiLang = ref(lang[0].id);
-if(uiLang.id === 1){
+if(uiLang === 1){
     langU = true;
 }else{
     langU = false;
