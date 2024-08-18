@@ -10,7 +10,9 @@
 </template>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
-
+*{
+  background-color:azure;
+}
 
 .moderustic {
   font-family: "Moderustic", sans-serif;
