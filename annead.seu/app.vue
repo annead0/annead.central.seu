@@ -1,8 +1,9 @@
 <template>
-  <UContainer class=".moderustic">
+  <UContainer >
     <UCard class="mt-10">
       <template #header >
-        Annead.
+        <div class="moderustic title">Annead.</div>
+        
       </template>
     </UCard>
   </UContainer>
@@ -16,5 +17,8 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+}
+.title{
+  font-size: 40px;
 }
 </style>
