@@ -11,8 +11,8 @@ export default defineNuxtConfig({
             ca:'/',
 
           }
-        }.
-      }
+        }
+      },
     ],['@nuxt/ui',{}]
   ],
 })
